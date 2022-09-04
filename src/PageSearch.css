@@ -1,0 +1,154 @@
+.pagesearch{
+    display: flex;
+    height:100vh;
+    background-color: #ffff;
+    flex-direction: column;
+
+
+}
+
+
+.header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+   z-index: 100;
+   align-items: flex-start;
+   padding: 15px;
+   border-bottom: 1px solid lightgray;
+}
+
+.logo{
+    object-fit: contain;
+    height: 70px;
+    margin-right: 40px;
+}
+
+.body > .search > .search_input{
+    margin-top: 0;
+flex: 1;  
+
+}
+.options{
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin-top: 15px;
+    
+
+}
+
+.optionsright,
+.optionsleft {
+    display: flex;
+    
+}
+
+.optionsright a,
+.optionsleft a {
+    
+    text-decoration: none;
+    color: gray;
+}
+
+.optionsright{
+    margin-left: 77px;
+}
+
+.searchoption_option {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+
+}
+
+
+
+.search_input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto; 
+    margin-top: 40px;
+    max-width: 628px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.search_inputs > input {
+    flex: 1;
+    padding: 10px 20px;
+    font-size: medium;
+    border: none;
+
+}
+
+/* input border outline remove focus used */
+
+.search_inputs > input:focus {
+    outline-width: 0px;
+}
+
+.icon{
+    color: gray;
+}
+
+
+
+.logo{
+ object-fit: contain;
+ height: 60px;
+ margin-right: 40px;   
+}
+
+
+.searchPage_result{
+    margin: 40px 0;
+
+}
+
+.resultcount{
+    color: rgb(77, 76, 76);
+    font-size: 14px;
+}
+
+.searchPage_resulting{
+    max-width: 550px;
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-bottom: 50px;
+}
+
+.searchPage_resulttitle{
+    text-decoration: none;
+}
+
+.searchPage_resulttitle:hover {
+text-decoration: underline;
+
+}
+
+.searchPage_resulttitle > h2{
+
+    font-weight: 500;
+}
+
+
+.snippet{
+    margin-top: 10px;
+}
+
+.searchPage_resultImage{
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+

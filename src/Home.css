@@ -1,0 +1,107 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    background-color: #ffff;
+}
+
+.home_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+/* a -link for all about,gmail so on */
+.home_header a {           
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: black;
+    font-size: 15px;
+}
+
+.home_header a:hover{
+    text-decoration: underline;
+}        
+
+.right{
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+
+}
+
+.avatar{
+    margin-left: 20px;
+}
+
+
+
+.home_body > img {
+    object-fit: contain;
+    height: 150px;
+}
+
+.home_body{
+    flex: 1;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.search_input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.search_input > input {
+    flex: 1;
+    padding: 10px 20px;
+    font-size: medium;
+    border: none;
+
+}
+
+/* input border outline remove focus used */
+
+.search_input > input:focus {
+    outline-width: 0px;
+}
+
+.icon{
+    color: gray;
+}
+
+
+.button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button button{
+    margin:5px;
+    padding: 7px 15px;
+    background-color: rgba(194, 194, 194, 0.636);
+    border: 1px solid white;
+    text-transform: inherit;
+    color: black;
+}
+
+.button button:hover{
+    box-shadow: 0 1px 1px rgb(99, 99, 99);
+    border-color: rgb(195, 191, 191) rgb(174, 174, 174) rgb(169, 168, 168);
+    border: 1px solid grey;
+    color: #222;
+}
